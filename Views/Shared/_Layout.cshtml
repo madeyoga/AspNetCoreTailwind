@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AspNetCoreTailwind</title>
+    <link rel="stylesheet" href="~/css/theme.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="flex flex-col justify-between min-h-screen">
+        <div>
+            <header>
+                <nav class="p-4">
+                    <div class="container-fluid flex items-center justify-between">
+                        <a class="mr-4" asp-area="" asp-controller="Home" asp-action="Index">AspNetCoreTailwind</a>
+                        <div class="">
+                            <ul class="flex">
+                                <li class="mr-3">
+                                    <a class="" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                </li>
+                                <li class="">
+                                    <a class="" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="container-fluid">
+                <main role="main" class="py-8">
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+
+        <footer class="border-top footer text-muted p-4">
+            <div class="container">
+                &copy; 2025 - AspNetCoreTailwind - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+    </div>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
