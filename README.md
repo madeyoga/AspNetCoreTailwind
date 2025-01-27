@@ -5,8 +5,8 @@ This repository demonstrates how to use **TailwindCSS 4** in an ASP.NET Core pro
 ### Requirements
 
 Before you begin, ensure you have the following installed on your system:
-- [Node.js](https://nodejs.org/) (for managing npm packages and running Tailwind CSS)
-- [.NET SDK](https://dotnet.microsoft.com/download) (to run the ASP.NET Core application)
+- [Node.js](https://nodejs.org/)
+- [.NET SDK](https://dotnet.microsoft.com/download)
 
 ### Steps to Run the Project
 
