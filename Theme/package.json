@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "npx @tailwindcss/cli -i ./src/index.css -o ../wwwroot/css/theme.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/index.css -o ../wwwroot/css/theme.min.css --minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -484,3 +484,4 @@ $RECYCLE.BIN/
 *.swp
 
 wwwroot/css/theme.css
+wwwroot/css/theme.min.css
